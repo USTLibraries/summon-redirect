@@ -23,7 +23,7 @@ var qs=window.location.search.substring(1).toLowerCase();
 
 console.log("Query String: "+qs);
 
-if(qs === "legacydata" || qs.endsWith === "isjedi" || qs.endsWith("isgod") ){
+if(qs === "legacydata" || qs.endsWith("isjedi") || qs.endsWith("isgod") ){
 	console.log("Remember... the Force will be with you, always. No Redirect");
 } else {
 	console.log("These aren't the droids you're looking for. Redirect");
